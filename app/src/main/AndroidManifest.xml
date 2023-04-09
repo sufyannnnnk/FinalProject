@@ -15,10 +15,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".StoredCities"
+            android:name="algonquin.cst2335.finalproject.StoredCities"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="algonquin.cst2335.finalproject.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
