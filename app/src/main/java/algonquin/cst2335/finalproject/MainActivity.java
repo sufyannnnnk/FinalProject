@@ -225,7 +225,7 @@ public class MainActivity extends AppCompatActivity {
      * @param city the name of the city for which to fetch weather data.
      */
     public void fetchWeather(String city) {
-        String accessKey = "bfac4d2fffab8231729760adadab6da0";
+        String accessKey = "6662d2d156d8912ac99877fe033a4418\n";
         String url = "http://api.weatherstack.com/current?access_key=" + accessKey + "&query=" + city;
         RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
 

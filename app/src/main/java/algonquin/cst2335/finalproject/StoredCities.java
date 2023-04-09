@@ -138,7 +138,7 @@ public class StoredCities extends AppCompatActivity implements RecyclerClickInte
         // Loop through the list of cities and fetch weather data for each one
         for (int i = 0; i < DBCities.size(); i++) {
             String cityName = DBCities.get(i).getCities();
-            String accessKey = "bfac4d2fffab8231729760adadab6da0";
+            String accessKey = "6662d2d156d8912ac99877fe033a4418\n";
             String url = "http://api.weatherstack.com/current?access_key=" + accessKey + "&query=" + cityName;
 
             // Create a new RequestQueue if one doesn't already exist
