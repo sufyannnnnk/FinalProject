@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">FinalProject</string>
+    <string name="app_name">Weather</string>
+    <string name="city_name">City Name</string>
+    <string name="enter_city_name">Enter City Name</string>
+    <string name="temperature_symbol">0 \u2103</string>
+    <string name="date_time">00:00 Jan, 1</string>
+    <string name="wind_speed">Wind: </string>
+    <string name="precip">Precip: </string>
+    <string name="pressure">Pressure: </string>
+    <string name="search_icon">Search Icon</string>
+    <string name="add_city">Add City</string>
+    <string name="description">Description</string>
+    <string name="show_stored_cities">Show Stored Cities</string>
+    <string name="search_city">Search City</string>
+    <string name="change_language">Change Language</string>
+    <string name="exit">Do you want to exit the application?</string>
+    <string name="alert">Alert !</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="wrong_city_name">Wrong city name entered..</string>
+    <string name="confirmation">Are you Sure you want to add </string>
+    <string name="add">ADD</string>
+    <string name="enter_city_first">Enter City First...</string>
+    <string name="city_added">City Added!</string>
+    <string name="city_already_added">City Already Added!</string>
+    <string name="please_enter_city">Please enter city</string>
+    <string name="no_cities_added">No Cities Added</string>
+    <string name="no_cities_available">No City Available!</string>
+    <string name="something_went_wrong">Something Went Wrong!</string>
+    <string name="stored_city_message">Short press on city to view details..\nLong press on city to delete it..</string>
+    <string name="ok">Ok</string>
+
 </resources>
