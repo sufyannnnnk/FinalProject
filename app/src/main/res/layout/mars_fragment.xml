@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/marsFragmentImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cameraFragmentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="camera name "
+        app:layout_constraintStart_toStartOf="@+id/marsFragmentImage"
+        app:layout_constraintTop_toBottomOf="@+id/marsFragmentImage" />
+
+    <TextView
+        android:id="@+id/urlFragmentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="image url "
+        android:autoLink="web"
+        app:layout_constraintStart_toStartOf="@+id/cameraFragmentText"
+        app:layout_constraintTop_toBottomOf="@+id/cameraFragmentText" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Save Photo"
+        android:visibility="visible"
+        android:enabled="true"
+        app:layout_constraintStart_toStartOf="@+id/urlFragmentText"
+        app:layout_constraintTop_toBottomOf="@+id/urlFragmentText" />
+
+    <Button
+        android:id="@+id/delButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Photo"
+        android:visibility="invisible"
+        android:enabled="false"
+        app:layout_constraintStart_toStartOf="@+id/saveButton"
+        app:layout_constraintTop_toTopOf="@+id/saveButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
