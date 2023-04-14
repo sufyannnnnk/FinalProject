@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मौसम</string>
+    <string name="city_name">शहर का नाम</string>
+    <string name="enter_city_name">शहर का नाम दर्ज करें</string>
+    <string name="temperature_symbol">0 \u2103</string>
+    <string name="date_time">00:00 Jan, 1</string>
+    <string name="wind_speed">हवा: </string>
+    <string name="precip">वर्षण: </string>
+    <string name="pressure">दबाव: </string>
+    <string name="search_icon">खोज चिह्न</string>
+    <string name="add_city">शहर जोड़ें</string>
+    <string name="description">विवरण</string>
+    <string name="show_stored_cities">संग्रहीत शहर दिखाएं</string>
+    <string name="search_city">शहर खोज</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="exit">क्या आप एप्लिकेशन से बाहर निकलना चाहते हैं?</string>
+    <string name="alert">चेतावनी!</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="wrong_city_name">शहर का नाम गलत डाला गया है..</string>
+    <string name="confirmation">क्या आप वाकई जोड़ना चाहते हैं</string>
+    <string name="add">जोड़े</string>
+    <string name="enter_city_first">पहले शहर का नाम डाले…</string>
+    <string name="city_added">शहर जोड़ा गया!</string>
+    <string name="city_already_added">शहर पहले ही जोड़ा जा चुका है!</string>
+    <string name="please_enter_city">कृपया शहर का नाम डाले</string>
+    <string name="no_cities_added">कोई शहर नहीं जोड़ा गया</string>
+    <string name="no_cities_available">कोई शहर उपलब्ध नहीं है!</string>
+    <string name="something_went_wrong">कुछ गलत हो गया!</string>
+    <string name="stored_city_message">विवरण देखने के लिए शहर पर संक्षिप्त प्रेस..\nइसे हटाने के लिए शहर पर देर तक दबाएं..</string>
+    <string name="ok">ठीक</string>
+</resources>
